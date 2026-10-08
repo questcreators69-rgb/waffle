@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang=""en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hi, i'm niharika ♡</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Niharika's Little Internet Corner</h1>
+      <nav>
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="things.html" class="nav-link">Things I Like</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="box box-1">
+        <h2>hi, i'm niharika</h2>
+        <p>i'm 14 and i made this website because i wanted somewhere to put random things i like songs i play on loop, photos from trips, books, and thoughts i don't want to forget.</p>
+        <p style="margin-top:8px;">thanks for visiting my little corner. feel free to stay as long as you like.</p>
+      </section>
+
+      <section class="box box-2">
+        <h2>currently obsessed with...</h2>
+        <div class="list-row"><strong>song:</strong> husn by anuv jain </div>
+        <div class="list-row"><strong>drink:</strong> cold coffee & masala chai</div>
+        <div class="list-row"><strong>movie:</strong> yeh jawaani hai deewani </div>
+        <div class="list-row"><strong>hobby:</strong> making curated playlists</div>
+      </section>
+
+      <section class="box box-3">
+        <h2>today's mood</h2>
+        <p>click how you're feeling right now:</p>
+        <div class="btn-group">
+          <button class="mood-btn active" data-mood="happy">Happy</button>
+          <button class="mood-btn" data-mood="sleepy">Sleepy</button>
+          <button class="mood-btn" data-mood="music">Music</button>
+          <button class="mood-btn" data-mood="tired">Tired</button>
+        </div>
+        <div class="output-box">
+          <strong id="moodTitle">happy & calm</strong>
+          <p id="moodDesc" style="margin-top:4px;">i found a really good song, the weather is nice, and my tea is warm. today is a gentle day.</p>
+        </div>
+      </section>
+
+      <section class=""box box-4">
+        <h2>leave a note</h2>
+        <form id="guestbookForm">
+          <input type="text" id="noteAuthor" placeholder=""your name or nickname" maxlength="30">
+          <textarea id=""noteMessage" rows="2" placeholder="leave a note, book recommendation, or friendly hello..." maxlength="120" required></textarea>
+          <div style="font-size:0.8rem; text-align:right;" id="charCount">0 / 120</div>
+          <button type="submit" style="align-self:flex-start; margin-left:12px;">Add Note</button>
+        </form>
+        <div id="pinboardNotes"><div class="output-box" id="emptyMsg">no notes left yet... be the first to leave one below?</div></div>
+      </section>
+
+      <section class="box box-5">
+        <h2>secret message</h2>
+        <button class="secret-btn">Click me for a secret note</button>
+        <div class="output-box" id="secretNoteOutput">click the button above to reveal a secret handwritten note.</div>
+      </section>
+    </main>
+
+    <div style="font-size:0.85rem; margin-top:15px; margin-left:25px;" id="timeCounter">you've been hanging out in my corner for 0 seconds • thanks for stopping by!</div>
+    <footer>made by niharika • thanks for visiting my little corner</footer>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
