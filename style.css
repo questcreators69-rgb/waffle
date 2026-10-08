@@ -1,0 +1,53 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #E11584; color: #ffffff; font-family: Arial, sans-serif; font-size: 15px; line-height: 1.5; padding: 10px; overflow-x: hidden; }
+.container { width: 96%; max-width: 900px; margin: 0 auto; padding: 5px; }
+
+header { background: #cf1279; padding: 18px 12px; margin-bottom: 25px; width: 94%; margin-left: 2%; transform: rotate(-0.8deg); }
+h1 { font-size: 1.8rem; color: #ffffff; margin-bottom: 6px; font-weight: bold; font-family: 'Comic Sans MS', cursive, sans-serif; }
+h2 { font-size: 1.3rem; color: #ffffff; margin-bottom: 10px; font-weight: bold; }
+nav { display: flex; gap: 15px; margin-top: 8px; margin-left: 10px; }
+.nav-link { background: #ffffff; color: #E11584; padding: 6px 14px; text-decoration: none; font-weight: bold; transform: rotate(1.5deg); }
+.nav-link.active { background: #000000; color: #ffffff; transform: rotate(-1.5deg); }
+
+.box { padding: 15px; margin-bottom: 25px; }
+.box-1 { background: #cf1279; width: 92%; margin-left: 1%; transform: rotate(-0.5deg); }
+.box-2 { background: #b80e6a; width: 84%; margin-left: 13%; transform: rotate(1deg); }
+.box-3 { background: #d91480; width: 90%; margin-left: 4%; transform: rotate(-0.8deg); }
+.box-4 { background: #a8085d; width: 96%; margin-left: 0%; transform: rotate(0.6deg); }
+.box-5 { background: #c20d71; width: 78%; margin-left: 18%; transform: rotate(-1.2deg); }
+.box-6 { background: #d1127a; width: 88%; margin-left: 7%; transform: rotate(1.1deg); }
+
+.list-row { margin-bottom: 12px; padding-left: 8px; }
+.btn-group { display: flex; flex-wrap: wrap; gap: 10px; margin: 10px 0; margin-left: 8px; }
+button { background: #ffffff; color: #E11584; border: none; padding: 8px 15px; font-weight: bold; cursor: pointer; font-size: 0.9rem; transform: rotate(-1deg); }
+button:hover { background: #ffc0cb; }
+button.active { background: #000000; color: #ffffff; transform: rotate(1deg); }
+.output-box { background: #8e0547; padding: 14px; margin-top: 10px; font-weight: bold; width: 90%; margin-left: 12px; transform: rotate(-0.5deg); }
+
+form { display: flex; flex-direction: column; gap: 10px; margin-top: 10px; }
+input, textarea { background: #ffffff; color: #000000; border: none; padding: 10px; font-family: inherit; font-size: 0.9rem; width: 80%; margin-left: 15px; }
+.note-item { background: #8e0547; padding: 12px; margin-top: 10px; width: 85%; margin-left: 20px; transform: rotate(0.8deg); }
+
+.grid { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 10px; }
+.grid-card { background: #9e0852; padding: 14px 10px; margin-bottom: 8px; }
+.card-1 { width: 44%; margin-left: 10px; transform: rotate(1deg); }
+.card-2 { width: 48%; margin-left: 25px; transform: rotate(-1.5deg); }
+.card-3 { width: 40%; margin-left: 60px; transform: rotate(0.8deg); }
+
+.medi  a-box { background: #9e0852; padding: 12px; margin-bottom: 18px; }
+.media-1 { width: 85%; margin-left: 15px; transform: rotate(-1deg); }
+.media-2 { width: 94%; margin-left: 0px; transform: rotate(1.2deg); }
+.media-3 { width: 78%; margin-left: 45px; transform: rotate(-0.7deg); }
+.media-file { width: 100%; max-height: 360px; object-fit: cover; display: block; border: none; }
+.caption { font-size: 0.85rem; margin-top: 6px; }
+
+.bucket-item { background: #9e0852; padding: 12px; margin-bottom: 10px; cursor: pointer; display: flex; align-items: center; gap: 10px; }
+.bucket-1 { width: 88%; margin-left: 10px; transform: rotate(0.5deg); }
+.bucket-2 { width: 96%; margin-left: 0px; transform: rotate(-0.8deg); }
+.bucket-3 { width: 82%; margin-left: 35px; transform: rotate(1.2deg); }
+.bucket-4 { width: 90%; margin-left: 15px; transform: rotate(-0.5deg); }
+.bucket-5 { width: 85%; margin-left: 25px; transform: rotate(0.9deg); }
+.bucket-6 { width: 92%; margin-left: 5px; transform: rotate(-1.1deg); }
+.bucket-item.checked { background: #7c033f; font-weight: bold; }
+
+footer { text-align: left; font-size: 0.85rem; font-weight: bold; margin-top: 25px; padding-top: 10px; margin-left: 30px; transform: rotate(-1deg); }
